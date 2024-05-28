@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    font-size: 10pt;
+    border:1px solid #574e4e;
+}
+td {
+    padding: 3px;
+    height: 25px;
+}
+th{
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+}
+h3{
+    font-weight: 600;
+    color: steelblue;
+}
+.btn-delete{
+    border: 1px solid #da4c4c;
+    background: #da4c4c url('images/hapus.png') no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.btn-update{
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url('images/edit.png') no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
